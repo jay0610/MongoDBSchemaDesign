@@ -31,7 +31,7 @@ The value of **product_type** determines the shape of the document, as each subt
 
 Above example of Online Book Store for books can be visually represented as below -
 
-![alt text](https://github.com/jay0610/MongoDBSchemaDesign/blob/main/.attachments/Books-Collection.png)
+[[Books-Collection (1).png]]
 
 The idea of **Data that is accessed together should be stored together** aligns well with its document-based architecture. Storing different types of books (printed, audio and ebooks) in the same collection can indeed leverage polymorphism effectively.
 
@@ -201,3 +201,5 @@ var cleanup_printedbook_entries_in_book_pipeline = [
 ```
 
 and so on.
+
+    
