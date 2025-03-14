@@ -31,7 +31,7 @@ The value of **product_type** determines the shape of the document, as each subt
 
 Above example of Online Book Store for books can be visually represented as below -
 
-[[Books-Collection (1).png]]
+[[Books-Collection.png]]
 
 The idea of **Data that is accessed together should be stored together** aligns well with its document-based architecture. Storing different types of books (printed, audio and ebooks) in the same collection can indeed leverage polymorphism effectively.
 
