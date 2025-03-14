@@ -5,7 +5,7 @@ Example: Whenever a document is inserted into a book collection, average of the 
 
 Let’s see example of roll-up operation - We want to display summary document of the each book and summary includes the number of books and average number of authors for each product type. The `$sum` operator increments the count of books for each type. The `$size` operator gets the number of authors in the `authors` array which is then averaged for the type using the `$avg` operator.
 
-```plaintext
+```javascript
 var roll_up_product_type_and_number_of_authors_pipeline = [
   {
     $group: {
