@@ -1,7 +1,7 @@
 
 The **Bucket Pattern** in MongoDB is a data modeling pattern designed to optimize query performance and storage usage by grouping related data together into a single document, rather than storing each piece of data in a separate document. This is particularly useful for scenarios where you deal with time-series data or data with predictable structures.
 
-### How It Works
+### How It Works ?
 
 The idea is to **"bucket" multiple records** that share common characteristics (like a time range or a specific group) into a single document. By doing so, you minimize the number of documents stored in the database and reduce indexing overhead. This also helps to improve query performance when querying for a specific "bucket" of data.
 
