@@ -1,5 +1,5 @@
 
-The Archive Pattern in MongoDB is a data modeling pattern used to manage historical or less frequently accessed data efficiently. By moving older or infrequently used data to a separate collection or even a separate database, you can keep the primary collection lean, improving query performance and storage management.
+The A**rchive Pattern** in MongoDB is a data modeling pattern used to manage historical or less frequently accessed data efficiently. By moving older or infrequently used data to a separate collection or even a separate database, you can keep the primary collection lean, improving query performance and storage management.
 
 ### How It Works
 
